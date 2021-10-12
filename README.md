@@ -1,3 +1,3 @@
 # AMSI
 
-Golang AMSI ScanBuffer Patch Bypass
+Golang AMSI Bypass Using ScanBuffer Patch
