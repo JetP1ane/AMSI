@@ -94,7 +94,6 @@ func patchMem(patchAddr unsafe.Pointer, dllAddr unsafe.Pointer) { // Patch AMSI
 
 	// Convert patch byte array to uintptr
 	var r uintptr
-	//patch = append([]byte {}, patch...) // for not to get index out of range
 	ptr := binary.LittleEndian.Uint64(patch)
 	r = uintptr(ptr)
 
