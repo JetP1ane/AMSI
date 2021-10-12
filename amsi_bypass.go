@@ -1,4 +1,4 @@
-package NightHawk
+package AMSI
 
 import (
 	"encoding/binary"
