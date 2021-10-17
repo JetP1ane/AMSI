@@ -50,7 +50,7 @@ func Hunter(address uintptr, egg []byte) uintptr { // Iterate through mem at poi
 
 		for true { // Child While Loop
 
-			loc++ // Iterate memory location by one bit
+			loc++ // Iterate memory location by one
 			memVal := unsafe.Pointer(loc)
 			fmt.Println(memVal)
 			tracker := true
